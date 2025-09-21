@@ -179,7 +179,7 @@ address {
         background-position: 50% 50%;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/img-name.png);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/img-name.png);
 
          
 }
