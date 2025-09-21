@@ -168,7 +168,7 @@ address {
 /* HERO */
 
 .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.png);
+    
         height: 600px;
         max-width: 1440px;
         margin: 0 auto;
@@ -176,6 +176,7 @@ address {
         align-items: center;
         justify-content: center;
         padding: 188px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.png);
         background-position: 50% 50%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -186,9 +187,7 @@ address {
 
 
 .hero-title {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.png);
     color: #FFFFFF;
-    font-family: var(--font-family);
     text-align: center;
         font-weight: 700;
         font-size: 56px;
@@ -201,7 +200,6 @@ address {
 }
 
 .hero-button {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.png);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
