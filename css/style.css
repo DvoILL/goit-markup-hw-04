@@ -445,27 +445,28 @@ address {
     flex-direction: column;
     max-width: 370px;
     width: calc((100% - 48px) / 3);
-    align-items: stretch;    
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    align-items: stretch;  
+    
+     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 
-.portfolio-list-item:hover{
-    transform: translateY(0%);
-}
+
 
 
 .overlay{
 position: relative;
 overflow: hidden;
+
 }
 
 .overlay-text{
     position: absolute;
-top: 0;
-height: 100%;
-        font-weight: 400;
+    top: 0;
+     height: 100%;
+     width: 100%;
+         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -474,10 +475,11 @@ height: 100%;
         background-color: #4D5AE5;
         transform: translateY(100%);
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.overlay-text:hover{
-    transform: translateY(0%);
-    
+         
+        
+} 
+.portfolio-list-item:hover .overlay-text{
+    transform: translateY(0%);   
     
 }
 
